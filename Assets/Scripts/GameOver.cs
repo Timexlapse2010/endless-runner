@@ -18,7 +18,7 @@ public class GameOver : MonoBehaviour
 
     public void Restart()
     {
-       // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-       //SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+       
     }
 }
